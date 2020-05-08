@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean wasRestored) {
                 Toast.makeText(getApplicationContext(), "success", Toast.LENGTH_LONG).show();
                 youTubePlayerrr = youTubePlayer;
+                youTubePlayer.setShowFullscreenButton(false);
                 youTubePlayer.loadVideo(videoId);
             }
 

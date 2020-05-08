@@ -9,11 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link BlankFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class BlankFragment extends Fragment {
 
     public BlankFragment() {
